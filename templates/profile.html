@@ -1,0 +1,20 @@
+<DOCTYPE! HTML>
+<html>
+<head>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/main.css')}}">
+<img src="{{url_for('static',filename='Image/logouser.jpg')}}" width=200px height=200py>
+<form method="POST">
+	<h3>{{profile_username}}</h3>
+	<h4 style="position: absolute; left:223;top:30px;">Subscribers: {{subs}}</h4>
+	<h4 style="position: absolute; left:223;top:10px;">Friends: {{friends_count}}</h4>
+	<ul>
+	<button style="position: absolute; right:10px;top:10px;"type="submit" name="logout">logout</button>
+	<button style="position: absolute; right:1580px;top:80px;"type="submit" name="subscribe">subscribe</button>
+	</ul>
+	<p> {{value}} </p>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+	background-color: #a5a5a5;
+	font-family: "Comic Sans MS"
+}
+
+input
+{
+	height: 30;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+button {
+	height: 30;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+h3
+{
+    position: absolute;
+    top: -1%;
+    left:223
+}
